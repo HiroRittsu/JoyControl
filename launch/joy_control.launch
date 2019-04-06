@@ -1,0 +1,4 @@
+<launch>
+        <node pkg="move" name="MovementVelocityDesignation" output="screen" respawn="true" type="MovementVelocityDesignation"/>
+        <node pkg="joy_control" name="kobuki_control" output="screen" respawn="true" type="kobuki_control"/>
+</launch>
